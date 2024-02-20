@@ -1,0 +1,30 @@
+{
+    "token":"",
+
+    "configs": {
+        "embed": {
+            "title": "{serverName}",
+            "thumbnail": "{userIcon}",
+            "description": "Seja bem-vindo {user}, a comunidade {serverName} agradece por ter se juntando a nós! Graças a você agora somos {memberCount} membros!",
+            "color": "#FF80ED",
+            "footer": "{userId}"
+        },
+
+        "leaveEmbed": {
+            "title": "{serverName}",
+            "thumbnail": "{userIcon}",
+            "description": "Infelizmente o {userName} saiu do servidor, agora somos apenas {memberCount} membros no {serverName}",
+            "color": "#FF80ED",
+            "footer": "{userId}"
+        },
+
+        "channels": {
+            "joinChannel": "1209190368353062982",
+            "leaveChannel": "1209190368353062982"
+        },
+
+        "autoRole": {
+            "roleId": "1209154569293008957"
+        }
+    }
+}
