@@ -4,7 +4,7 @@ const Discord = require("discord.js")
 
 
 client.on("guildMemberRemove", async(member) => {
-    const channel = member.guild.channels.cache.get(config.configs.channels.joinChannel)
+    const channel = member.guild.channels.cache.get(config.configs.channels.leaveChannel)
     const { title, thumbnail, description, color, footer } = config.configs.leaveEmbed
 
     function replace(text, replacements) {
